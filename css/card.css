@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #228b22;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    margin: auto;
+    margin-top: 111px;
+    margin-bottom: 111px;
+    display: flex;
+    /* width: 85%; */
+    height: 275px;
+    max-width: 500px;
+    min-width: 350px;
+    flex-direction: row;
+    background: turquoise;
+    padding: 2em;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+
+.name {
+    background-color: #228b22;
+}
+
+h2 {
+    text-align: center;
+}
+
+.position {
+    text-shadow: #FC0 1px 0 10px;
+    background-color: teal;
+    /* align-self: flex-end; */
+
+}
+
+.photo-wrap {
+    text-align: center;
+    box-shadow: 0 0 14px blueviolet;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    size: 50%;
+    border:  5px ridge rebeccapurple;
+    /* max-width: 130px; */
+    /* margin: 0 auto; */
+    align-self: flex-start;
+}
+
+.profile {
+    text-align: center;
+    background-color: burlywood;
+    border: 1em solid rgb(16, 117, 206);
+    border-radius: 2em;
+    margin: 1em;
+    padding: 1.1em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+}
+

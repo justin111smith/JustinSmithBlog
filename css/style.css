@@ -1,0 +1,116 @@
+/* @import "phone.css" screen and (max-width: 480px);
+@import "footer.css" screen and (max-width: 328px);
+@import "entry.css" screen and (max-width: 422px); */
+@import "onecolumn.css" screen and (max-width: 700px);
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: forestgreen;
+} 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 200px 1fr;
+  grid-template-areas:
+    "hd hd hd"
+    "sb m m"
+    "sb m m"
+    "sb m m"
+    "ft ft ft";
+}
+
+h1 {
+  color: cornflowerblue;
+}
+
+.header {
+  grid-area: hd;
+  margin: 0;
+  text-align: center;
+  height: 111px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  border: 3px dashed powderblue;
+  color: aquamarine;
+  background-color: rgb(18, 65, 107);
+  border-radius: 3em 2em;
+  padding: 10px;
+  align-items: stretch;
+  text-align: center;
+  text-shadow: 2px 2px 4px #d3d3d;
+}
+
+.main {
+  min-width: 150px;
+  max-width: 469px;
+  grid-area: m;
+  background-color: rgb(67, 204, 202);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2em;
+  border: 5px inset burlywood;
+  margin: 2em;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.side-bar {
+  grid-area: sb;
+}
+
+.footer {
+  grid-area: ft;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  background-color: darkorchid;
+  display: inline-block;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: fantasy;
+}
+
+ figcaption {
+  padding-top: 11px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+.robot-container {
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer .social-link {
+  justify-content: center;
+  width: 23%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 1.2rem;
+}
+
+#icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: deepskyblue;
+}
+
+a.card-link {
+  font-size: 200%;
+  align-items: center;
+  
+}

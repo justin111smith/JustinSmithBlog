@@ -1,0 +1,19 @@
+.button {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: purple;
+    padding: 11px;
+    border-radius: 11px;
+    display: inline-block;
+    border: 3px dotted green;
+    transition: all 0.4s ease 0s;
+    }
+
+    .button:hover {background-color: #3e8e41}
+
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }

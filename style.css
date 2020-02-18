@@ -1,20 +1,6 @@
-/* @import url("button.css"); */
-@import "footer.css" screen and (max-width: 328px);
-@import "entry.css" screen and (max-width: 422px);
-
-/* CARD BUTTON */
-
-a.button {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #ed3330;
-  padding: 20px;
-  border-radius: 5px;
-  display: inline-block;
-  border: none;
-  transition: all 0.4s ease 0s;
-  }
+@import url("footer.css") screen and (max-width: 328px);
+@import url("entry.css") screen and (max-width: 422px);
+@import url("navbar.css");
 
 body {
   width: 100%;
@@ -34,7 +20,7 @@ body {
     "ft ft ft";
 }
 
-/* Header */
+/* HEADER */
 h1 {
   color: cornflowerblue;
 }
@@ -221,4 +207,3 @@ a.card-link {
     padding-top: 10px;
     font-family: fantasy;
   }
-

@@ -1,0 +1,21 @@
+ul#nav-bar {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+    width: 525px;
+}
+
+ul#nav-bar {
+    display: inline;
+}
+
+ul#nav-bar li a {
+    text-decoration:none;
+    padding:5px 0;
+    width:100px;
+    background:#485e49;
+    color:#eee;
+    float:right;
+    text-align: center;
+    border-left: 1px solid gray;
+}
